@@ -1,0 +1,6 @@
+(library
+ (name ppx_delete_constructors_after_deriving)
+ (public_name ppx_delete_constructors_after_deriving)
+ (kind ppx_rewriter)
+ (libraries ppxlib)
+ (preprocess no_preprocessing))
